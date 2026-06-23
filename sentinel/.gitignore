@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Environment — NEVER commit this
+.env
+
+# Database & uploaded files
+*.db
+*.sqlite
+evidence_files/
+
+# Logs
+*.log
+sentinel_text.txt
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Temp
+*.tmp
+scratchpad/
